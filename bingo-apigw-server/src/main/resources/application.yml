@@ -1,0 +1,31 @@
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: ${EUREKA_URI:http://localhost:8761/eureka}
+
+server:
+  port: 9010
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: gateway,metrics
+
+spring:
+  application:
+    name: bingo-apigw-server
+  cloud:
+    gateway:
+      routes:
+        - id: bingo-auth-server
+          uri: 'http://localhost:9000'
+          predicates:
+            - Path=/bingo/auth/v1/**
+
+        - id: customer-management
+          uri: 'http://localhost:8085'
+          predicates:
+            - Path=/customer/v1/**
+          filters:
+            - AuthenticationFilter
