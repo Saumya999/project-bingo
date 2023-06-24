@@ -1,4 +1,4 @@
-package in.soshealth.apigwServer.config;
+package in.crossdimension.apigwServer.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

@@ -7,4 +7,4 @@ server.port: 8761
 
 spring:
   application:
-    name: sosh-eureka-discovery
+    name: bingo-eureka-discovery

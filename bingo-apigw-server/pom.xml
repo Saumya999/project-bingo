@@ -8,8 +8,8 @@
 		<version>2.6.3</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>in.soshealth</groupId>
-	<artifactId>apigw-server</artifactId>
+	<groupId>in.crossdimension</groupId>
+	<artifactId>bingo-apigw-server</artifactId>
 	<version>1.0.0</version>
 	<name>apigwServer</name>
 	<description>API Gateway Server Implementation</description>

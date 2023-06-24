@@ -1,4 +1,4 @@
-package in.soshealth.apigwServer.utils;
+package in.crossdimension.apigwServer.utils;
 
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.io.Decoders;

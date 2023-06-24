@@ -1,6 +1,6 @@
-package in.soshealth.apigwServer.filter;
+package in.crossdimension.apigwServer.filter;
 
-import in.soshealth.apigwServer.utils.JwtUtility;
+import in.crossdimension.apigwServer.utils.JwtUtility;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cloud.gateway.filter.GatewayFilter;

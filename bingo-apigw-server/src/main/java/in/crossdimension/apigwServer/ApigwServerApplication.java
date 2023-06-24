@@ -1,4 +1,4 @@
-package in.soshealth.apigwServer;
+package in.crossdimension.apigwServer;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

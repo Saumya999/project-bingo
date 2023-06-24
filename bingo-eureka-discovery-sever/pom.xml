@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>in.crossdimension</groupId>
-	<artifactId>sosh-eureka-discovery-sever</artifactId>
+	<artifactId>bingo-eureka-discovery-sever</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>sosh-eureka-discovery-sever</name>
 	<description>Eureka Discovery Server</description>
